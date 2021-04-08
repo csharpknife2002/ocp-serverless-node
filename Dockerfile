@@ -16,4 +16,4 @@ RUN npm ci --only=production
 COPY *.js ./
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "node", "myserver.js" ]
